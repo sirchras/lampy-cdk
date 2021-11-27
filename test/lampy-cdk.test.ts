@@ -1,3 +1,4 @@
+// eslint-env jest
 // import { Template } from '@aws-cdk/assertions';
 // import * as cdk from '@aws-cdk/core';
 // import * as LampyCdk from '../lib/lampy-cdk-stack';
@@ -14,4 +15,4 @@ test('SQS Queue Created', () => {
 //   template.hasResourceProperties('AWS::SQS::Queue', {
 //     VisibilityTimeout: 300
 //   });
-});
+})
